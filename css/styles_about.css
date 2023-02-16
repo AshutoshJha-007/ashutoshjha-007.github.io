@@ -1,0 +1,183 @@
+@import 'utilities.css';
+
+
+:root {
+    --primary: #0ff;
+    --dark: #161616;
+    --pure: white;
+    --ternary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+
+/*----------------------------Body----------------------------*/
+
+body, html{
+    width: 114%;
+    height: 150%;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(247, 62, 62), rgb(101, 98, 236));
+}
+
+/*----------------------------Nav-bar----------------------------*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+section.nav-bar .container{
+    
+    background: var(--dark);
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+.branding img{
+    border-radius: 30%;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-left: 3.8rem;
+}
+      
+.menu ul {
+    list-style-type: none;
+}
+      
+.menu ul li a {
+    color: var(--pure);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 5rem;
+    align-items: center;
+}
+
+.menu a:hover{
+    color: var(--primary);
+}
+
+/*----------------------------About----------------------------*/
+
+section.content{
+    width: 85%;
+    float: right;
+    color: var(--secondary);
+}
+
+section.content h1{
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+}
+
+section.content p{
+    padding: 2rem;
+    margin: 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--pure);
+    background: var(--dark);
+    opacity: 70%;
+}
+
+/*----------------------------Education----------------------------*/
+
+section.education{
+    width: 85%;
+    float: right;
+    color: var(--secondary);
+}
+
+section.education h1{
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+}
+
+section.education table {
+    margin-left: 2rem;
+    width: 96%;
+    border-collapse: collapse;
+    background: var(--dark);
+    opacity: 70%;
+}
+
+/*section.education table, th, td {
+    border: 1px solid;
+}*/
+
+section.education th, td {
+    border: 1px solid;
+    font-size: 1.5rem;
+    height: 50px;
+    text-align: center;
+    color: var(--pure);
+}
+
+/*p{
+    padding: 2rem;
+    margin: 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--pure);
+    background: var(--dark);
+    opacity: 70%;
+}*/
+
+/*----------------------------Achievements----------------------------*/
+
+section.achievements{
+    width: 85%;
+    float: right;
+    color: var(--secondary);
+}
+
+section.achievements h1{
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+}
+
+section.achievements p{
+    padding: 2rem;
+    margin: 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--pure);
+    background: var(--dark);
+    opacity: 70%;
+}
+
+/*----------------------------Hobbies----------------------------*/
+
+section.hobbies{
+    width: 85%;
+    float: right;
+    color: var(--secondary);
+}
+
+section.hobbies h1{
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+}
+
+section.hobbies p{
+    padding: 2rem;
+    margin: 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--pure);
+    background: var(--dark);
+    opacity: 70%;
+}
